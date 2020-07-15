@@ -1,0 +1,25 @@
+body {
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    color: #000000;
+}
+
+.logo-half {
+    color: #2196f3;
+}
+
+.site-nav a {
+    color: #212121;
+}
+
+
+
+
+special color #2196f3 great color #212121 litlle color #757575
+  other color #ffffff f color rgba(255, 255, 255, 0.6);
