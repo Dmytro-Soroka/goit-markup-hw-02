@@ -1,25 +1,107 @@
+:root {
+  --primary-taxt-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --special-text-color: #ffffff;
+}
+
 body {
-    color: #ffffff;
+  background-color: #ffffff;
+  color: var(--primary-taxt-color);
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
+/*header*/
 .logo {
-    color: #000000;
+  color: #000000;
 }
 
 .logo-half {
-    color: #2196f3;
+  color: var(--accent-text-color);
 }
 
-.site-nav a {
-    color: #212121;
+.site-nav .link {
+  color: var(--title-text-color);
 }
 
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
 
+.site-nav-contacts a {
+  color: var(--primary-taxt-color);
+}
 
+.site-nav-contacts a:hover,
+.site-nav-contacts a:focus {
+  color: var(--accent-text-color);
+}
 
-special color #2196f3 great color #212121 litlle color #757575
-  other color #ffffff f color rgba(255, 255, 255, 0.6);
+/*hero*/
+.hero-title {
+  color: var(--special-text-color);
+}
+
+.hero-object {
+  color: var(--special-text-color);
+}
+
+/*main contant*/
+.section-title {
+  color: var(--title-text-color);
+}
+
+.skills-title {
+  color: var(--title-text-color);
+}
+
+.work-title {
+  color: var(--special-text-color);
+}
+
+.command-title {
+  color: var(--title-text-color);
+}
+
+/*footer*/
+.footer {
+  background-color: #e5e5e5;
+}
+
+.footer-title {
+  color: var(--special-text-color);
+}
+
+.footer-title a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-button {
+  color: var(--special-text-color);
+}
+
+/*portfolio*/
+.portfolio-buttons-title {
+  color: var(--title-text-color);
+}
+
+.portfolio-buttons-title:hover,
+.portfolio-buttons-title:focus {
+  color: var(--special-text-color);
+}
+
+.portfolio a {
+  color: var(--primary-taxt-color);
+}
+
+.portfolio-title {
+  color: var(--title-text-color);
+}
+
+.portfolio-info {
+  color: var(--special-text-color);
+}
