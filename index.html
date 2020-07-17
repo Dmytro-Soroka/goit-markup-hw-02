@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web-Studio</title>
+    <link rel="stylesheet"
+    href=https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
@@ -168,7 +171,7 @@
               alt="photo_1"
             />
             <h3 class="command-title">Николай Кучеренко</h3>
-            <p lang="en">Product Designer</p>
+            <p lang="en" class="command-description">Product Designer</p>
             <ul>
               <li>
                 <a href="">
@@ -211,7 +214,7 @@
               alt="photo_2"
             />
             <h3 class="command-title">Ольга Иванова</h3>
-            <p lang="en">Frontend Developer</p>
+            <p lang="en" class="command-description">Frontend Developer</p>
             <ul>
               <li>
                 <a href="">
@@ -254,7 +257,7 @@
               alt="photo_3"
             />
             <h3 class="command-title">Андрей Шевченко</h3>
-            <p lang="en">Marketing</p>
+            <p lang="en" class="command-description">Marketing</p>
             <ul>
               <li>
                 <a href="">
@@ -297,7 +300,7 @@
               alt="photo_4"
             />
             <h3 class="command-title">Иван Николаев</h3>
-            <p lang="en">UI Designer</p>
+            <p lang="en" class="command-description">UI Designer</p>
             <ul>
               <li>
                 <a href="">
@@ -395,17 +398,20 @@
     <!--footer container-->
     <footer class="footer">
       <!--adress container-->
-      <section class="footer-title">
-        <h2 lang="en"><span class="logo-half">Web</span> Studio</h2>
-        <address>
+      <section>
+        <h2 lang="en" class="logo">
+          <span class="logo-half">Web</span>
+          <span class="footer-logo-half">Studio</span>
+        </h2>
+        <address class="footer-adress">
           г. Киев, пр-т Леси Украинки, 26 <br />
           <a href="mailto: info@example.com">info@example.com</a> <br />
           <a href="tel: +380991111111">+38 099 111 11 11</a>
         </address>
       </section>
       <!--our massengers container-->
-      <section class="footer-title">
-        <h2>присоединяйтесь</h2>
+      <section>
+        <h2 class="footer-title">Присоединяйтесь</h2>
         <ul>
           <li>
             <a href="">
@@ -442,8 +448,8 @@
         </ul>
       </section>
       <!--mailto container-->
-      <section class="footer-title">
-        <h2>Подпишитесь на рассылку</h2>
+      <section>
+        <h2 class="footer-title">Подпишитесь на рассылку</h2>
         <button type="button">
           <p class="footer-button">Подписаться</p>
           <img
